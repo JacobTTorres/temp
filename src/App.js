@@ -1,9 +1,10 @@
 import './App.css';
+import BookingForm from './components/BookingForm/BookingForm';
 
 function App() {
 	return (
 		<div className="App">
-			<h1>bloop</h1>
+			<BookingForm />
 		</div>
 	);
 }
